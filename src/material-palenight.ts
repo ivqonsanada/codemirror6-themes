@@ -2,17 +2,15 @@ import { EditorView } from '@codemirror/view';
 import { Extension } from '@codemirror/state';
 import { HighlightStyle, tags as t } from '@codemirror/highlight';
 
-// Using https://github.com/one-dark/vscode-one-dark-theme/ as reference for the colors
+/*
+  Credits for color palette:
 
-const chalky = '#e5c07b',
-  coral = '#e06c75',
-  cyan = '#56b6c2',
-  ivory = '#abb2bf',
+  Author:     Mattia Astorino (http://github.com/equinusocio)
+  Website:    https://material-theme.site/
+*/
+
+const ivory = '#abb2bf',
   stone = '#7d8799', // Brightened compared to original to increase contrast
-  malibu = '#61afef',
-  sage = '#98c379',
-  whiskey = '#d19a66',
-  violet = '#c678dd',
   invalid = '#ffffff',
   darkBackground = '#21252b',
   highlightBackground = 'rgba(0, 0, 0, 0.5)',
@@ -21,7 +19,7 @@ const chalky = '#e5c07b',
   selection = 'rgba(128, 203, 196, 0.2)',
   cursor = '#ffcc00';
 
-/// The editor theme styles for One Dark.
+/// The editor theme styles for Material Palenight.
 export const materialPalenightTheme = EditorView.theme(
   {
     // done
@@ -39,6 +37,7 @@ export const materialPalenightTheme = EditorView.theme(
     '&.cm-focused .cm-cursor': {
       borderLeftColor: cursor
     },
+
     '&.cm-focused .cm-selectionBackground, .cm-selectionBackground, .cm-content ::selection':
       { backgroundColor: selection },
 
@@ -102,7 +101,7 @@ export const materialPalenightTheme = EditorView.theme(
   { dark: true }
 );
 
-/// The highlighting style for code in the One Dark theme.
+/// The highlighting style for code in the Material Palenight theme.
 export const materialPalenightHighlightStyle = HighlightStyle.define([
   { tag: t.keyword, color: '#c792ea' },
   { tag: t.operator, color: '#89ddff' },
@@ -124,7 +123,7 @@ export const materialPalenightHighlightStyle = HighlightStyle.define([
   { tag: t.invalid, color: invalid }
 ]);
 
-/// Extension to enable the One Dark theme (both the editor theme and
+/// Extension to enable the Material Palenight theme (both the editor theme and
 /// the highlight style).
 export const materialPalenight: Extension = [
   materialPalenightTheme,
