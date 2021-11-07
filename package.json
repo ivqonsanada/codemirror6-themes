@@ -1,10 +1,10 @@
 {
   "name": "codemirror6-themes",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Collection of themes of CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
-    "prepare": "cm-buildhelper src/material-palenight.ts"
+    "prepare": "cm-buildhelper src/index.ts"
   },
   "keywords": [
     "editor",

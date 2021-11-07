@@ -1,6 +1,7 @@
 /src
 /test
 /node_modules
+/examples
 .tern-*
 rollup.config.js
 tsconfig.json
