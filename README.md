@@ -25,6 +25,7 @@ This code is released under an [MIT license].
 | Theme name                                  |               Example |
 | :------------------------------------------ | --------------------: |
 | Material Palenight <br> `materialPalenight` | ![Material Palenight] |
+| Material Darker <br> `materialDarker`       |    ![Material Darker] |
 
 <!-- CodeMirror -->
 
@@ -45,3 +46,4 @@ This code is released under an [MIT license].
 <!-- Theme Examples -->
 
 [material palenight]: ./examples/material-palenight.png
+[material darker]: ./examples/material-darker.png
