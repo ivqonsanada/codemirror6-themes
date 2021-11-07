@@ -15,10 +15,10 @@ const chalky = '#e5c07b',
   violet = '#c678dd',
   invalid = '#ffffff',
   darkBackground = '#21252b',
-  highlightBackground = '#2c313a',
+  highlightBackground = 'rgba(0, 0, 0, 0.5)',
   background = '#292d3e',
   tooltipBackground = '#353a42',
-  selection = '#3E4451',
+  selection = 'rgba(128, 203, 196, 0.2)',
   cursor = '#ffcc00';
 
 /// The editor theme styles for One Dark.
@@ -110,7 +110,7 @@ export const materialPalenightHighlightStyle = HighlightStyle.define([
   { tag: t.typeName, color: '#f07178' },
   { tag: t.atom, color: '#f78c6c' },
   { tag: t.number, color: '#ff5370' },
-  { tag: t.definition, color: '#82aaff' },
+  { tag: t.definition(t.variableName), color: '#82aaff' },
   { tag: t.string, color: '#c3e88d' },
   { tag: t.special(t.string), color: '#f07178' },
   { tag: t.comment, color: stone },
@@ -120,6 +120,7 @@ export const materialPalenightHighlightStyle = HighlightStyle.define([
   { tag: t.meta, color: '#ffcb6b' },
   { tag: t.attributeName, color: '#c792ea' },
   { tag: t.propertyName, color: '#c792ea' },
+  { tag: t.className, color: '#decb6b' },
   { tag: t.invalid, color: invalid }
 ]);
 
