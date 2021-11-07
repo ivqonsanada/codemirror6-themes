@@ -8,6 +8,18 @@ The [project page] has more information, a number of [examples] and the [documen
 
 This code is released under an [MIT license].
 
+## Package usage
+
+1. Install the package
+   ```bash
+   yarn add codemirror6-themes
+   ```
+2. Import theme you want to use
+   ```javascript
+   // this will use Material Palenight Theme
+   import { materialPalenight } from 'codemirror6-themes';
+   ```
+
 ## Available themes
 
 | Theme name                                  |               Example |
