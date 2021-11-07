@@ -1,6 +1,6 @@
 {
   "name": "codemirror6-themes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of themes of CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",

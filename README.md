@@ -1,6 +1,6 @@
 <!-- NOTE: README.md is generated from src/README.md -->
 
-# codemirror6-themes [![NPM version](https://img.shields.io/npm/v/ivqonsanada/codemirror6-themes.svg)](https://www.npmjs.org/package/codemirror6-themes)
+# codemirror6-themes [![NPM version](https://img.shields.io/npm/v/ivqonsanada/codemirror6themes.svg)](https://www.npmjs.org/package/codemirror6-themes)
 
 This package implements the themes for the [CodeMirror](https://codemirror.net/6/) code editor.
 
