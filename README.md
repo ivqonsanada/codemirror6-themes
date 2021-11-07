@@ -26,6 +26,7 @@ This code is released under an [MIT license].
 | :------------------------------------------ | --------------------: |
 | Material Palenight <br> `materialPalenight` | ![Material Palenight] |
 | Material Darker <br> `materialDarker`       |    ![Material Darker] |
+| Duotone Space Dark <br> `duotoneSpaceDark`  | ![Duotone Space Dark] |
 
 <!-- CodeMirror -->
 
@@ -47,3 +48,4 @@ This code is released under an [MIT license].
 
 [material palenight]: ./examples/material-palenight.png
 [material darker]: ./examples/material-darker.png
+[duotone space dark]: ./examples/duotone-space-dark.png
