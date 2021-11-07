@@ -10,9 +10,9 @@ This code is released under an [MIT license].
 
 ## Available themes
 
-| Theme name         |               Example |
-| :----------------- | --------------------: |
-| Material Palenight | ![material palenight] |
+| Theme name                                  |                                Example |
+| :------------------------------------------ | -------------------------------------: |
+| Material Palenight <br> `materialPalenight` | ![](./examples/material-palenight.png) |
 
 <!-- CodeMirror -->
 
@@ -29,7 +29,3 @@ This code is released under an [MIT license].
 
 [npm version]: https://img.shields.io/npm/v/codemirror6-themes.svg
 [contributions welcome]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
-
-<!-- Examples -->
-
-[material palenight]: 'https://github.com/ivqonsanada/codemirror6-themes/examples/material-palenight.png'
