@@ -23,7 +23,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@codemirror/buildhelper@^0.1.0":
+"@codemirror/buildhelper@0.1.11":
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@codemirror/buildhelper/-/buildhelper-0.1.11.tgz#5c12de223ccf01990178ba9d6d245f04d1617929"
   integrity sha512-05rGkuCG5svRrc47OVEP10PmNYMvdNR2NfHnGh7JvpR/mreTiPPG8DHrUZoaM6qzM1CBWi2QsvY4lTfQAJ4jQA==
